@@ -13,14 +13,15 @@
 </head>
 
 <body>
+    <!-- hearder starts from here -->
     <div class="header">
         <div class="title">
             <h1>MM FOOD</h1>
         </div>
         <div class="nav">
             <a href="#profile">HOME</a>
-            <a href="#">FOOD-MENU</a>
-            <a href="#">ABOUT-US</a>
+            <a href="#Food-Menu">FOOD-MENU</a>
+            <a href="#About-Us">ABOUT-US</a>
             <a href="#">CONTACT</a>
         </div>
 
@@ -45,7 +46,7 @@
     <!-- profile ends here -->
 
     <!-- about me starts from here -->
-    <section class="about-us">
+    <section class="about-us" id="About-Us">
         <div class="half-width">
             <img src="images/my-bg2.png" alt="Owner of MM food">
         </div>
@@ -60,11 +61,12 @@
     </section>
     <!-- about us ends here -->
 
-    <!-- my recipes starts from here -->
-    <section class="my-recipies">
-        <div class="recipies-title">
+    <!-- my Food-Menu starts from here -->
+    <section class="Food-Menu" id="Food-Menu">
+        <div class="Food-title">
             <h1>FOOD-MENU</h1>
-            <p>There is only three recipies that you can see but we have more than 100 recipes with 5 star review</p>
+            <p> In our Food-Menu,There is only three recipies that you can see but we have more than 100 recipes with 5
+                star review</p>
         </div>
         <div class="recipies-head">
             <div class="recipies-item">
@@ -86,6 +88,25 @@
             </div>
         </div>
     </section>
+    <!-- food-menu ends here -->
+
+    <!-- Contact starts from here -->
+    <div class="contact">
+        <h2>CONTACT</h2>
+        <hr>
+        <div class="form">
+            <form action="mailto:joycomputers36@gmail.com" mathod="post" enctype="text/plain">
+                <p> <input type="text" placeholder="Your Name" name="your name"></p>
+                <p> <input type="email" placeholder="Your Email" name="your email"></p>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message Here"></textarea>
+                <button type="submit">SEND</button>
+                <button type="reset">RESET</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Contact starts from here -->
 </body>
+</div>
 
 </html>
