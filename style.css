@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    display: flex;
+    background-image: linear-gradient(135deg, #5433ff, #20bdff, #a5fecb);
+
+}
+
+
+.title {
+    width: 40%;
+    text-align: center;
+}
+
+.nav {
+    width: 60%;
+    text-align: right;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 30px 20px;
+    font-size: 20px;
+    display: inline-block;
+}
+.nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+ /* heading style ends here */
+
+/* profile style from here */
+.profile {
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.profile h1 {
+    font-size: 50px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 1% 5%;
+
+}
+
+.half-width img {
+    width: 90%;
+}
+
+.s-font {
+    color: rgb(195, 0, 255);
+}
+
+.btn {
+    background-image: linear-gradient(45deg, orange, red);
+    padding: 10px 30px;
+    border-radius: 21px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    
+}
+/* profile ends here */
+
+/* about us starts from here */
+.about-us{
+    display: flex;
+    background-image: url(images/Frame\ 57.jpg);
+    background-size: 100%;
+    margin-bottom: 80px;
+}
+/* about us ends here */
+
+/* recipes starts from here */
+
+.recipies-title{
+    text-align: center;
+}
+.recipies-head{
+    display: flex;
+    padding: 1% 7%;
+}
+.recipies-item{
+    width: 33%;
+   box-shadow: 10px 20px 40px grey;
+   border-radius: 21px;
+   margin-left: 20px;
+   padding: 10px;
+   
+}
+.recipies-item img{
+   width: 100%;
+}
